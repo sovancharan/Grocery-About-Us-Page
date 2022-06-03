@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- style.css -->
+      <link rel="stylesheet" href="./css/style.css">
+      <!-- responsive -->
+      <link rel="stylesheet" href="./css/responsive.css">
+  
+      <title>Grocery</title>
+  </head>
+  <body>
+    <div class="header  ">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger font-italic ps-5 fs-2" href="#">groceryecho</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 
+                </ul>
+                <span class="navbar-text pe-5 w-50">
+                    <ul class="navbar-nav d-flex flex-row justify-content-evenly nav-li-item">
+                        <li class="nav-item d-flex text-dark">
+                            <img class="nav-img" src="./img/list.png" alt="">
+                            <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">list</a>
+                        </li>
+                        <li class="nav-item d-flex text-dark">
+                          <img class="position-relative dot-img" src="./img/Ellipse 1.png" alt="">
+                            <img class="nav-img" src="./img/shopping-basket 1.png" alt="">
+                            <a class="nav-link active fs-5 fw-bolder" href="#">Busket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5 text-success fw-bolder" href="#">Login</a>
+                        </li>
+          
+                    </ul>
+                </span>
+              </div>
+            </div>
+          </nav> 
+    </div>
+
+
+           <!--50% discount -->
+
+           <div class=" main-div position-relative ">
+            <h5 class="d-flex ps-lg-5 py-2"><span class="nav-link disabled">Home /</span><span class="pt-2">Products</span></h5>
+           <div class="discount-div  rounded-3">
+              
+            <div class="background-img-main-div">
+          <img class="position-absolute  discountdiv-absolute-image " src="./img/Untitled-1 4.png" width="" height="500" alt="">
+          <img class="position-relative w-25 discount-item" src="./img/Group 30.png" alt="">
+      </div>
+      <div  class="position-relative discount-div-words">
+          <h2 class="text-center discount-div-heading"> <span class="text-white">Get upto</span><span class="text-dark">50%</span><br>
+          <span class="text-white">discount on covid essentials</span></h2>
+          <div class="d-grid col-2 getnow-btn">
+              <button class="btn btn-dark py-2 my-3" type="button">Get now</button>
+              
+            </div>
+      </div>
+        </div>
+           
+           </div>
+        <!-- filter-section -->
+
+        <div class="filter-main-div  ">
+           
+
+              <div class="row pb-5 g-0  pt-4">
+                  <div class="col-lg-3 col-sm-4 col-md-3 container ps-sm-5  ps-lg-5  filer-column">
+                      <div class="row g-0 ">
+                          <h5 class="pb-2">Filter</h5>
+                        <div class="input-group mb-3 py-2 rounded-3 bg-white mt-3 ">
+                            <i class="fa-solid fa-magnifying-glass text-success pt-2 ps-2 pe-2"></i>
+                            <input type="text" class="form-control " placeholder="Search for a Products" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
+                      </div>
+
+                      <div class="row bg-white py-3 rounded-3 g-0">
+                        <div class="btn-group dropend">
+                            <button type="button" class="btn  dropdown-toggle text-start fw-bold fs-6" data-bs-toggle="dropdown" aria-expanded="false">
+                              Price
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                            </ul>
+                            
+                          </div>
+                          <hr>
+                          <div class="progress ms-4 me-2 w-75">
+                            <div class="progress-bar " role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                          </div>
+                      </div>
+
+                      <div class="row bg-white py-3 rounded-3 g-0 mt-3">
+                        <div class="btn-group dropend">
+                            <button type="button" class="btn  dropdown-toggle text-start fw-bold fs-6" data-bs-toggle="dropdown" aria-expanded="false">
+                              Catagory
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                            </ul>
+                            
+                          </div>
+                          <hr>
+                          <div class="form-check ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Grocery
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Clothing
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Accesories
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Covid Essentials
+                            </label>
+                          </div>
+                          
+                      </div>
+
+                      <div class="row bg-white py-3 rounded-3 mt-3 discount-main-div">
+                        <div class="btn-group dropend">
+                            <button type="button" class="btn  dropdown-toggle text-start fw-bold fs-6" data-bs-toggle="dropdown" aria-expanded="false">
+                              Discount
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                            </ul>
+                            
+                          </div>
+                          <hr>
+                          <div class="form-check ">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Upto 5%
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              5%-10%
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              10%-15%
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              15-25%
+                            </label>
+                          </div>
+                          
+                      </div>
+                      <div class="row bg-white mt-3 g-0">
+                        <div class="btn-group dropend py-1 rounded-3">
+                            <button type="button" class="btn  dropdown-toggle text-start fw-bold fs-6 rounded-3" data-bs-toggle="dropdown" aria-expanded="false">
+                              Brands
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                            </ul>
+                            
+                          </div>
+                    </div>
+                    <div class="row bg-white mt-3 food-preference-div">
+                        <div class="btn-group dropend py-1 rounded-3">
+                            <button type="button" class="btn  dropdown-toggle text-start fw-bold fs-6 rounded-3" data-bs-toggle="dropdown" aria-expanded="false">
+                              Food Preference
+                            </button>
+                            <ul class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                            </ul>
+                            
+                          </div>
+                    </div>
+
+                  </div>
+
+
+                  <div class="col-lg-8 col-sm-11">
+                      <div class="d-flex justify-content-between mt-sm-4 filter-right-div-heading ps-md-5">
+                          <div>
+                            <p>Showing all 9 result</p>
+                          </div>
+                          <div>
+
+                         
+                        
+                        <div class="btn-group bg-white mb-2 price-low-to-high-div g-0 mb-lg-4">
+                            <button class="btn   fs-6 " type="button">
+                            Price-Low to High
+                            </button>
+                            <button type="button" class="btn  dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                            ...
+                            </ul>
+                        </div>
+
+
+                          </div>
+                      </div>
+                      <!-- right-div -->
+                      <div class="row g-0  ps-md-5">
+                          
+                          <div class="col-lg-3 col-sm-7 col-md-3 ">
+                              <div>
+                                  <img class="img-fluid" src="./img/img.png" alt="">
+                              </div>
+                              <div class="pt-4">
+                                  <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                  <p class="p-0 fw-bold">2 Per tray</p>
+                                  <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                  <p class="fw-bold">400g avg.</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div class="">
+                                <img class="img-fluid" src="./img/img (1).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div>
+                                <img class=" img-fluid" src="./img/img (2).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="row g-0 pt-4 ps-md-5">
+                          
+                        <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div>
+                                <img class="img-fluid" src="./img/img (3).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                          <div class="">
+                              <img class="img-fluid" src="./img/img.png" alt="Coffe">
+                          </div>
+                          <div class="pt-4">
+                              <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                              <p class="p-0 fw-bold">2 Per tray</p>
+                              <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                              <p class="fw-bold">400g avg.</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                          <div>
+                              <img class=" img-fluid" src="./img/img (4).png " alt="">
+                          </div>
+                          <div class="pt-4 ">
+                              <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                              <p class="p-0 fw-bold">2 Per tray</p>
+                              <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                              <p class="fw-bold">400g avg.</p>
+                          </div>
+                      </div>
+                    </div>
+
+
+                            <div class="row g-0 pt-4 ps-md-5">
+                          
+                          <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                              <div>
+                                  <img class="img-fluid" src="./img/img.png" alt="">
+                              </div>
+                              <div class="pt-4">
+                                  <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                  <p class="p-0 fw-bold">2 Per tray</p>
+                                  <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                  <p class="fw-bold">400g avg.</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div class="">
+                                <img class="img-fluid" src="./img/img (1).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div>
+                                <img class=" img-fluid" src="./img/img (2).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                      </div>
+
+
+                            <div class="row g-0 pt-4 ps-md-5">
+                          
+                          <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                              <div>
+                                  <img class="img-fluid" src="./img/img (2).png" alt="">
+                              </div>
+                              <div class="pt-4">
+                                  <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                  <p class="p-0 fw-bold">2 Per tray</p>
+                                  <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                  <p class="fw-bold">400g avg.</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div class="">
+                                <img class="img-fluid" src="./img/img.png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-7 col-md-3 mx-2">
+                            <div>
+                                <img class=" img-fluid" src="./img/img (4).png" alt="">
+                            </div>
+                            <div class="pt-4">
+                                <h5 class="fw-bold p-0 m-0">Grain Fed vial chop </h5>
+                                <p class="p-0 fw-bold">2 Per tray</p>
+                                <h4 class="text-danger fw-bolder m-0">$16.75</h4>
+                                <p class="fw-bold">400g avg.</p>
+                            </div>
+                        </div>
+                      </div>
+                      
+                  </div>
+              </div>
+        </div>
+
+
+        <!-- next-page -->
+
+    <div class="next-page-main-div d-flex justify-content-center py-5">
+        <div class="text-white bg-danger rounded-3 py-2 px-3 me-3">1</div>
+        <div class="  rounded-3 py-2 px-3 me-4">2</div>
+        <div class="  rounded-3 py-2 px-3 me-4">3</div>
+        <div class="  rounded-3 py-2 px-3 me-4">4</div>
+        <div class="  rounded-3 py-2 px-3 me-4">5</div>
+        <div class="  rounded-3 py-2 px-3 me-4">Next >></div>
+    </div>
+
+    </div>
+
+
+
+
+
+      <!-- important links -->
+
+      <div class="important-links ">
+        <div class="row g-0 container pb-4">
+            
+            <div class="col">
+              <div class="container">
+                <div class="ps-4 pb-4 pt-5">
+                    <h6 class="text-white "><b>Mon Metro</b></h6>
+                </div>
+                <ul class="text-white d-flex flex-column justify-content-center ">
+                    <li class=""><a class="text-white " href="">Online Grocery</a></li>
+                    <li><a class="text-white " href="#">Flyer</a></li>
+                    <li><a class="text-white " href="#">Coupons</a></li>
+                    <li><a class="text-white " href="#">Recipes and Occasions</a></li>
+                    <li><a class="text-white " href="#">Products to Discover</a></li>
+                    <li><a class="text-white " href="#">Metro&moi</a></li>
+                    <li><a class="text-white " href="#">Just For Me</a></li>
+                    <li><a class="text-white " href="#">Metro Priority</a></li>
+                    <li><a class="text-white " href="#">Cornershop</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                  <div class="ps-4 pb-4 pt-5">
+                      <h6 class="text-white "><b>What we Offer</b></h6>
+                  </div>
+                  <ul class="text-white d-flex flex-column justify-content-center ">
+                      <li class=""><a class="text-white " href="">Online Grocery</a></li>
+                      <li><a class="text-white " href="#">Our Private Brands</a></li>
+                      <li><a class="text-white " href="#">Our Partners</a></li>
+                      <li><a class="text-white " href="#">ervices</a></li>
+                      <li><a class="text-white " href="#">Products to Discover</a></li>
+                      <li><a class="text-white " href="#">Gift Card</a></li>
+                      <li><a class="text-white " href="#">Contests</a></li>
+                      
+                  </ul>
+                </div>
+            </div>
+            <div class="col">
+              <div class="container">
+                  <div class="ps-4 pb-4 pt-5">
+                      <h6 class="text-white "><b>Get to know Us</b></h6>
+                  </div>
+                  <ul class="text-white d-flex flex-column justify-content-center ">
+                      <li class=""><a class="text-white " href="">Corporate Site</a></li>
+                      <li><a class="text-white " href="#">Supplier Relations</a></li>
+                      <li><a class="text-white " href="#">About Us</a></li>
+                      <li><a class="text-white " href="#">Metro Green Apple School Program</a></li>
+                      <li><a class="text-white " href="#">Corporate Responsibility</a></li>
+                      <li><a class="text-white " href="#">Careers</a></li>
+                     
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer container pt-5 pb-4">
+
+      <div class="row  container">
+          <div class="col">
+              <div>
+              <h4 class="text-center">Newslatter
+              </h4>
+              <p>Sign up to metro.ca to receive offers and much more! <b class="text-primary">Learn more</b> </p>
+          </div>
+          </div>
+          <div class="col">
+              <div>
+                  <h4 class="text-center">Take our survey</h4>
+                  <p class="text-center">Tell us how we're doing. Take the <b class="text-primary">Metro survey</b> </p>
+              </div>
+          </div>
+    </div>
+    
+    </div>
+    <hr>
+
+    <div>
+        <p class="text-center">Conditions of Use <b class="text-primary"> Privacy policy</b>  | © Metro Richelieu Inc 2020</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

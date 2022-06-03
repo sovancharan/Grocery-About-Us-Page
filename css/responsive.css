@@ -1,0 +1,56 @@
+
+@media only screen and (max-width: 600px) {
+    .discount-item {
+        width: 9rem !important;
+        left: 4rem;
+        top: 1rem;
+    }
+    .discount-div-words {
+        top: 0.8rem;
+        left: 2rem;
+    }
+    .getnow-btn {
+        margin-left: 10rem;
+        width: 23%;
+        top: 2rem;
+  }
+  .price-low-to-high-div {
+    margin-right: 0rem !important;
+}
+.background-img-main-div {
+    padding-left: 1rem;
+}
+
+.discount-div-words{
+    font-size: 1rem !important;
+}
+.discount-div-heading{
+    font-size: 1rem !important;
+}
+.filter-right-div-heading{
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .discount-div-words {
+        top: -2rem;
+        left: 2rem;
+    }
+    .discount-item {
+        width: 14rem !important;
+        left: 3rem;
+        top: 2rem;
+    }
+    .getnow-btn {
+        margin-left: 20rem;
+    }
+    .background-img-main-div {
+        padding-left: 2.8rem;
+    }
+    .filer-column{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+   
+    
+}
+.nav{
+    background: #EEEEEE;
+opacity: 0.75;
+}
+.form-control {
+    border: none;
+}
+.navbar{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: white;
+    /* opacity: 0.8; */
+    padding-bottom: 0.4rem !important;
+
+}
+.navbar-brand{
+    font-weight: 900;
+}
+.dot-img{
+    height: 0.5rem;
+    top: 1rem;
+    left: 1.5rem;
+}
+.header-heading{
+    font-weight: 900;
+    font-size: 3rem !important;
+}
+.nav-img{
+    height: 1.5rem;
+    margin-top: 0.6rem;
+}
+
+.fifty-persent-discount-main-div{
+    /* background: #EDEDED; */
+
+}
+.main-div{
+    background: #EDEDED;
+
+    z-index: -8;
+} 
+.discount-item{
+    width: 15rem !important;
+    left: 6rem;
+    top: 5rem;
+}
+.discountdiv-absolute-image{
+z-index: -1;
+max-height: 80% !important;
+width: 90% !important;
+
+
+}
+.discount-main-div{
+    margin-left: 0.1rem !important;
+    margin-right: 0rem !important;
+}
+.discountdiv-absolute-image {
+    width: 90% !important;
+    height: -webkit-fill-available !important;
+    border-radius: 1rem;
+}
+.background-img-main-div{
+    padding-left: 4rem;
+}
+.discount-div-words {
+    top: -7rem;
+    left: -5rem;
+}
+.getnow-btn{
+    margin-left: 29rem;
+
+}
+.discountdiv-absolute-image{
+    width: 80%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.price-low-to-high-div{
+    margin-right: 14rem;
+}
+.food-preference-div{
+    margin-left: 0.2rem;
+    margin-right: 0rem;
+}
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2.5em !important;
+    margin-bottom: 0.125rem;
+}
+.important-links{
+    background-image: url(../img/Untitled-1\ 2.png);
+    background-size: 100% 100%;
+    width: 100%;
+   max-height: 150vh;
+   z-index: 100;
+}
+
+.footer{
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+.filter-main-div{
+    background: #EDEDED;
+}
+.next-page-main-div{
+    background: #EDEDED;
+}
